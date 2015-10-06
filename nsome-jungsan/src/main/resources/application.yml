@@ -1,0 +1,12 @@
+server:
+  port: 18888
+ 
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: nsomeJungsan
+      
+security:
+  enable-csrf: false
